@@ -1,1 +1,52 @@
-/* Other rules */
+body {
+  background-color: #7359dc;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+form,
+.form {
+  /* display: none; */
+
+  background-color: #e5e5e5;
+  height: 550px;
+  max-width: 400px;
+  display: flex;
+  margin: 0 auto;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+input,
+button {
+  width: 300px;
+  margin: 10px auto;
+  margin-bottom: -10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+input {
+  height: 30px;
+  margin: 6%;
+}
+
+button {
+  height: 40px;
+  background-color: #7359dc;
+  color: white;
+  cursor: pointer;
+}
+
+.footer,
+a:visited {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
